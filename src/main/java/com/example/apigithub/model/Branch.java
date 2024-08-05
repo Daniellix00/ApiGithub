@@ -11,4 +11,12 @@ public class Branch {
     public String getLastCommitSha() {
         return lastCommitSha;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setLastCommitSha(String lastCommitSha) {
+        this.lastCommitSha = lastCommitSha;
+    }
 }
